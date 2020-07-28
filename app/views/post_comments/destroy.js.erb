@@ -1,0 +1,2 @@
+$('#post_comments_buttons_<%= @dog.id %>').html("<%= j(render partial: 'post_comments/comments', locals: {dog: @dog}) %>");
+

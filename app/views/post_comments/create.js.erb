@@ -1,0 +1,2 @@
+$('#post_comments_buttons_<%= @dog.id %>').html("<%= escape_javascript(render 'comments', comments: @comments) %>");
+$('#comment_form').html("<%= escape_javascript(render 'comment_form',  comment: @comment) %>");

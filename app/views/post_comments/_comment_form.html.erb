@@ -1,0 +1,7 @@
+<%= form_for [@dog, @post_comment], remote: true do |f| %>
+  <div class='form-group mb-30'>
+    <%= f.text_area :comment %>
+  </div>
+    <%= f.submit :送信 %>
+<% end %>
+

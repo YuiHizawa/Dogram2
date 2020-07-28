@@ -1,0 +1,28 @@
+// Place all the styles related to the Homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.home {
+  background-image: url("<%= asset_path('top.JPG') %>");
+  height: 800px;
+  background-size:cover;
+  background-position: center;
+  position: relative;/*相対配置*/
+}
+
+h1{
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 350px;
+  left: 300px;
+  font-size:90px;
+  font-weight: 900;
+  font-family : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  font-stretch: wider;
+  color: rgba(255, 255, 255, 1);
+  background-color:rgba(0,0,0,0);
+}
+.home span{
+  font-weight: 100;
+  background-color:rgba(0,0,0,0);
+  color: rgba(255, 255, 255, 0.5);
+}
