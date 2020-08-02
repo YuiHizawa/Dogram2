@@ -15,4 +15,8 @@
 
 //= require jquery
 //= require bootstrap-sprockets
+//= require jquery.rwdImageMaps
 //= require_tree .
+$(function () {
+  $("img[usemap]").rwdImageMaps();
+});
