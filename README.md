@@ -1,24 +1,19 @@
-# README
+# Dogram
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+現代では多くの人々が、インスタグラムやTwitterなど様々なSNSを利用している。InstagramやTwitterは分野の情報を得ることができ、沢山のメリットがある。
+しかしこれらのSNSを利用している中で、「あ、今見たくない情報まで見えてしまった」という経験を誰もがしたことがあるのではないか。私はフォローしてしまったが故に友人の頻回な投稿を見る羽目になったこと、ダイエット中の美味しそうなスイーツの投稿による誘惑、仕事に追われている日々の中で見る誰かのバカンスの投稿などにストレスを感じたことがある。実際にこういったものを見ることに疲れ果て、5年ほど全てのSNSから離れていた。
+こういった経験からSNSの良さを生かすために、初めからジャンルを限定し、犬好きだけのために、ストレスなく癒しを得られるAPPを作成したいと考え作成に至った。
 
-Things you may want to cover:
+### サイトテーマ
+ストレスフリー、犬好きだけSNS。
 
-* Ruby version
+### テーマを選んだ理由
+私は生まれた頃からいぬが大好きです。落ち込んだ時や疲れた時、辛い時いつも私の側には犬がいました。もちろん今も、側には犬がいます。
+たとえひとり暮らしで犬が飼えなくても、このアプリを開いたら癒しがある、そんなサービスがあったら良いなと思いました。犬は人からの愛情を餌にする生き物だそうです。だからこそ人に与えてくれるものは大きいと考えています。
 
-* System dependencies
+### ターゲットユーザ
+犬が好きな人。犬に癒されたい人。犬を飼いたいけど飼えない人。
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 主な利用シーン
+ふとした瞬間、癒されたい時に、気軽に開くことができるサービス。
