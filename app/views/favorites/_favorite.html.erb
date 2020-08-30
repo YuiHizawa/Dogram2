@@ -1,17 +1,17 @@
 <% if user_signed_in? %>
     <% if dog.favorited_by?(current_user) %>
         <p>
-        <span>お気に入り解除: </span>
-        <%=link_to dog_favorites_path(dog), method: :delete, remote: true do %>
-            <span class="glyphicon glyphicon-heart"><%= dog.favorites.count %></span>
-        <% end %>
+            <span>お気に入り解除: </span>
+            <%=link_to dog_favorites_path(dog), method: :delete, remote: true do %>
+                <span class="glyphicon glyphicon-heart"><%= dog.favorites.count %></span>
+            <% end %>
         </p>
     <% else %>
         <p>
-        <span>お気に入り登録: </span>
-        <%=link_to dog_favorites_path(dog), method: :post, remote: true do %>
-            <span class="glyphicon glyphicon-heart-empty"><%= dog.favorites.count %></span>
-        <% end %>
+            <span>お気に入り登録: </span>
+            <%=link_to dog_favorites_path(dog), method: :post, remote: true do %>
+                <span class="glyphicon glyphicon-heart-empty"><%= dog.favorites.count %></span>
+            <% end %>
         </p>
     <% end %>
 <% else %>

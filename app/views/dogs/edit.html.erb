@@ -1,9 +1,9 @@
 <h1>編集画面</h1>
 <%= form_for(@dog, url:"/dogs/#{@dog.id}") do |f| %>
-  <h4>タイトル</h4>
-  <%= f.text_field :title %>
-  <h4>本文</h4>
-  <%= f.text_area :introduce %>
-  <%= f.submit '保存' %>    
+	<h4>タイトル</h4>
+	<%= f.text_field :title %>
+	<h4>本文</h4>
+	<%= f.text_area :introduce %>
+	<%= f.submit '保存' %>
 <% end %>
 <%=link_to '削除', dog_path(@dog.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>

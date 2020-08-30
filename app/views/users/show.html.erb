@@ -1,12 +1,12 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-            <h3 class="profile-name"><%= @user.name %></h3>
-        </div>
-        <div class="col-lg-6">
-            <%= attachment_image_tag @user, :profile_image, format: 'jpeg', fallback: "1.JPG", size:"100×100", class:"img" %>
-        </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h3 class="profile-name"><%= @user.name %></h3>
     </div>
+    <div class="col-lg-6">
+      <%= attachment_image_tag @user, :profile_image, format: 'jpeg', fallback: "1.JPG", size:"100×100", class:"img" %>
+    </div>
+  </div>
   <% if @user.id == current_user.id %>
     <p><%= link_to "プロフィール編集", edit_user_path(@user), class: "pull-right" %></p>
   <% end %>
@@ -16,12 +16,13 @@
     <div class="row">
       <div class="col-md-8 col-sm-offset-2">
         <div class="masonry-wrapper-cols">
-        <% @dogs.each do |dog| %>
+          <% @dogs.each do |dog| %>
             <%= link_to dog_path(dog.id) do %>
-                <%= attachment_image_tag dog, :image, :fill, 120,100, format: 'jpeg', size: "350x350" %>
+              <%= attachment_image_tag dog, :image, :fill, 120,100, format: 'jpeg', size: "350x350" %>
             <% end %>
-        <% end %>
+          <% end %>
+        </div>
       </div>
     </div>
-    </div>
-</div>
+  </div>
+</section>
