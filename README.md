@@ -17,3 +17,5 @@
 
 ### 主な利用シーン
 ふとした瞬間、癒されたい時に、気軽に開くことができるサービス。
+機能一覧
+https://docs.google.com/spreadsheets/d/1kwQQBOhPnHW75aOiUnEWsHYflGM9PIsjZSjIirHhxJ4/edit?usp=sharing
